@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  database: omni_dev
+  username: postgres
+  password: password
+  host: localhost
+
+test: &TEST
+  adapter: postgresql
+  database: omni_test
+  username: postgres
+  password: password
+  host: localhost
+
+  production:
+    adapter: postgresql
+    database: omni_prod
+    username:
+    password:
+    host: localhost
